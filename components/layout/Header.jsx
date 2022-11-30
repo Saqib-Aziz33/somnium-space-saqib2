@@ -64,7 +64,10 @@ function Header() {
           </HStack>
         </Stack>
 
-        <Box className="download-buttons-wrapper">
+        <Box
+          className="download-buttons-wrapper"
+          display={{ base: "none", sm: "block" }}
+        >
           <Box className="trianlge" />
           <button>
             Download VR Client <BsWindows />

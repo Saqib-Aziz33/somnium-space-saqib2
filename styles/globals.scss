@@ -151,11 +151,14 @@ html, body {
 
 
 .hero{
+  $video-height: 1000px;
+
   margin-top: 80px;
   position: relative;
-
+  height: $video-height;
+  overflow: hidden;
+  
   .video-slider{
-    $video-height: 1000px;
     min-height: $video-height;
     .item{
       video{
@@ -200,6 +203,15 @@ html, body {
       transform: translate(-50%, -50%);
       }
     }
+  }
+}
+
+.hero-footer{
+  background: linear-gradient(90deg, #555 0, #888 50%, #555);
+  position: relative;
+  // top: -65px;
+  img{
+    max-width: 100px;
   }
 }
 
