@@ -1,0 +1,51 @@
+{
+  "videos": [
+    {
+      "img": "/assets/ss1.png",
+      "url": "https://somniumspace.com/images/AvatarsAnimation.mp4"
+    },
+    {
+      "img": "/assets/ss2.png",
+      "url": "https://somniumspace.com/images/video22.mp4"
+    },
+    {
+      "img": "/assets/ss3.png",
+      "url": "https://somniumspace.com/images/video33.mp4"
+    },
+    {
+      "img": "/assets/ss4.png",
+      "url": "https://somniumspace.com/images/video44.mp4"
+    },
+    {
+      "img": "/assets/ss1.png",
+      "url": "https://somniumspace.com/images/AvatarsAnimation.mp4"
+    },
+    {
+      "img": "/assets/ss2.png",
+      "url": "https://somniumspace.com/images/video22.mp4"
+    },
+    {
+      "img": "/assets/ss3.png",
+      "url": "https://somniumspace.com/images/video33.mp4"
+    }
+  ],
+
+  "stack_images": [
+    {
+      "title": "UnitySDK",
+      "img": "/assets/hm1.png"
+    },
+    {
+      "title": "Virtual Reality",
+      "img": "/assets/hm2.png"
+    },
+    {
+      "title": "Builder",
+      "img": "/assets/hm3.png"
+    },
+    {
+      "title": "Marketplace",
+      "img": "/assets/hm4.png"
+    }
+  ]
+}

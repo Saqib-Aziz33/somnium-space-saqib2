@@ -69,6 +69,7 @@ html, body {
   min-height: 80px;
   color: #fff;
   position: fixed;
+  z-index: 50;
   top: 0;left: 0;
   width: 100%;
   font-family: $ff-secondary;
@@ -149,11 +150,90 @@ html, body {
 }
 
 
+.hero{
+  margin-top: 80px;
+  position: relative;
+
+  .video-slider{
+    $video-height: 1000px;
+    min-height: $video-height;
+    .item{
+      video{
+        width: 100%;
+        min-height: $video-height;
+        object-fit: cover;
+      }
+      .img{
+        height: 0 !important;
+      }
+    }
+  }
+
+  .img-stack{
+    position: absolute;
+    top: 2rem;right: 1rem;
+  }
+
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+
+    .hero-bbg-text{
+      color: white;
+      font-size: 1.4rem;
+      text-shadow: 0 0 4px #0fffff;
+      border-bottom: 4px solid transparent;
+      border-image: linear-gradient(90deg, #13c477, transparent) 1 0;
+    }
+
+
+    .h-btn{
+      position: relative;
+      cursor: pointer;
+      .t{
+        position:absolute;
+        top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
 
 
 // ************************************** overrides
-
-
+.hero{
+  .video-slider{
+    .thumbs{
+      background-color: rgba(0, 0, 0, 0.699);
+      padding: 10px 20px;
+      padding-left: 100px;
+      clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+      position: absolute;
+      right: 0;
+      bottom: 45px;
+    }
+    @media only screen and (max-width: 800px){
+      .thumbs{display: none;}
+    }
+    .control-dots{
+      bottom: 12px;
+      width: 300px;
+      background-color: rgba(116, 177, 208, .9058823529411765);
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+      padding: 30px 20px;
+      .dot{
+        height: 12px !important;
+        width: 12px !important;
+        background-color: #00000041 !important;
+    }
+    }
+  }
+}
 
 
 
