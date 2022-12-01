@@ -217,6 +217,7 @@ html, body {
 
 .vr-world{
   background: url('../media/buildingbg.png') no-repeat center;
+  background-size: cover;
   color: #fff;
   text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
 
@@ -243,8 +244,9 @@ html, body {
   background: linear-gradient(90deg, rgba(145, 219, 255, 0) 0, rgba(145, 219, 255, .5) 50%, rgba(145, 219, 255, 0)), url('../media/buildingbg.png') no-repeat center;
 }
 
-.in-game{
+.in-game, .partners{
   background: url('../media/buildingbg.png') no-repeat center;
+  background-size: cover;
   color: #fff;
   
   .t-shadow{

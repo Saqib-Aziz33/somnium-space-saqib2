@@ -2,6 +2,7 @@ import AvailableNow from "../components/elements/AvailableNow";
 import Hero from "../components/elements/hero/Hero";
 import HeroFooter from "../components/elements/HeroFooter";
 import InGame from "../components/elements/InGame";
+import Partners from "../components/elements/Partners";
 import VRWorld from "../components/elements/VRWorld";
 import data from "../lib/data.json";
 
@@ -19,6 +20,8 @@ export default function Home({ videos, stackImgs }) {
       <VRWorld />
       <AvailableNow />
       <InGame />
+      <AvailableNow />
+      <Partners />
       <AvailableNow />
     </>
   );
