@@ -1,4 +1,5 @@
 import AvailableNow from "../components/elements/AvailableNow";
+import Community from "../components/elements/Community";
 import Events from "../components/elements/Events";
 import Hero from "../components/elements/hero/Hero";
 import HeroFooter from "../components/elements/HeroFooter";
@@ -22,6 +23,7 @@ export default function Home({ videos, stackImgs }) {
       <InGame />
       <Partners />
       <Events />
+      <Community />
     </>
   );
 }

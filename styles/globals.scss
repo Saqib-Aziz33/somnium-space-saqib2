@@ -264,6 +264,40 @@ html, body {
   color: #fff;
 }
 
+.community{
+  background: url('../media/cbg.png') no-repeat center;
+  background-size: cover;
+  
+  .c-header{
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  .icon{
+    font-size: 1.6rem;
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.social-bar{
+  border: 2px solid #ffbe00;
+  background-image: linear-gradient(90deg, rgba(145, 219, 255, 0) 0, rgba(255, 190, 0, .5) 50%, rgba(145, 219, 255, 0));
+  color: white;
+  font-size: 2rem;
+}
+
 
 // ************************************** overrides
 .hero{
