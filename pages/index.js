@@ -1,4 +1,5 @@
 import AvailableNow from "../components/elements/AvailableNow";
+import Events from "../components/elements/Events";
 import Hero from "../components/elements/hero/Hero";
 import HeroFooter from "../components/elements/HeroFooter";
 import InGame from "../components/elements/InGame";
@@ -18,11 +19,9 @@ export default function Home({ videos, stackImgs }) {
       <Hero videos={videos} stackImgs={stackImgs} />
       <HeroFooter />
       <VRWorld />
-      <AvailableNow />
       <InGame />
-      <AvailableNow />
       <Partners />
-      <AvailableNow />
+      <Events />
     </>
   );
 }

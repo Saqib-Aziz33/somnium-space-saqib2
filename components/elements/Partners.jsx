@@ -7,6 +7,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import AvailableNow from "./AvailableNow";
 
 function Partners() {
   return (
@@ -73,6 +74,8 @@ function Partners() {
           </HStack>
         </Stack>
       </Container>
+
+      <AvailableNow />
     </div>
   );
 }

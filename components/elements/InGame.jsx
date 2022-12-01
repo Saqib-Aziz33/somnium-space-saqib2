@@ -9,6 +9,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import AvailableNow from "./AvailableNow";
 
 function InGame() {
   return (
@@ -122,6 +123,8 @@ function InGame() {
           </GridItem>
         </Grid>
       </Container>
+
+      <AvailableNow />
     </div>
   );
 }

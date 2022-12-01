@@ -53,7 +53,7 @@ html, body {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    column-gap: 0.5rem;
     .icon{
       border: 4px solid transparent;
       border-radius: 50%;
@@ -241,22 +241,28 @@ html, body {
   color: #fff;
   text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
   border: 2px solid #91dbff;
-  background: linear-gradient(90deg, rgba(145, 219, 255, 0) 0, rgba(145, 219, 255, .5) 50%, rgba(145, 219, 255, 0)), url('../media/buildingbg.png') no-repeat center;
+  background: linear-gradient(90deg, rgba(145, 219, 255, 0) 0, rgba(145, 219, 255, .5) 50%, rgba(145, 219, 255, 0));
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 13px 14px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 13px 14px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 13px 14px -4px rgba(0,0,0,0.4);
 }
 
 .in-game, .partners{
   background: url('../media/buildingbg.png') no-repeat center;
   background-size: cover;
   color: #fff;
-  
-  .t-shadow{
-    text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
-  }
   .t-blue{
     color: #b9e7ff;
   }
 }
 
+.events{
+  background: url('../media/ebg.png') no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
 
 
 // ************************************** overrides
@@ -292,3 +298,6 @@ html, body {
 
 
 // ************************************** utils
+.t-shadow {
+  text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+}

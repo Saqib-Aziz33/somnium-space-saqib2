@@ -8,6 +8,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import AvailableNow from "./AvailableNow";
 
 function VRWorld() {
   return (
@@ -63,6 +64,8 @@ function VRWorld() {
           </GridItem>
         </Grid>
       </Container>
+
+      <AvailableNow />
     </div>
   );
 }
