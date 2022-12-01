@@ -236,6 +236,26 @@ html, body {
 }
 
 
+.available-now{
+  color: #fff;
+  text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+  border: 2px solid #91dbff;
+  background: linear-gradient(90deg, rgba(145, 219, 255, 0) 0, rgba(145, 219, 255, .5) 50%, rgba(145, 219, 255, 0)), url('../media/buildingbg.png') no-repeat center;
+}
+
+.in-game{
+  background: url('../media/buildingbg.png') no-repeat center;
+  color: #fff;
+  
+  .t-shadow{
+    text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+  }
+  .t-blue{
+    color: #b9e7ff;
+  }
+}
+
+
 
 // ************************************** overrides
 .hero{
