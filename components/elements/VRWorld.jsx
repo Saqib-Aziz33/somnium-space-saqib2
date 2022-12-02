@@ -24,10 +24,7 @@ function VRWorld() {
           </Heading>
         </VStack>
 
-        <Grid
-          gridTemplateColumns={{ base: "1fr 1fr 1fr", md: "1fr 2fr 1fr" }}
-          mt={20}
-        >
+        <Grid gridTemplateColumns={{ base: "1fr", md: "1fr 2fr 1fr" }} mt={20}>
           <GridItem textAlign="end" className="g-item">
             <Text mt={16}>
               We are creating an Open, Social, Virtual Reality world. A world

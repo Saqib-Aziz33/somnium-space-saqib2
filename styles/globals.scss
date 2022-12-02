@@ -299,6 +299,90 @@ html, body {
 }
 
 
+.ownership{
+  position: relative;
+  .top-section{
+    position: relative;
+
+    .blue-wrapper{
+      color: white;
+      text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      text-align: center;
+      .content{
+        padding-top: 80px;
+        img{
+          max-width: 150px !important;
+        }
+      }
+      .top-blue{
+        position: absolute;
+        z-index: -3;
+        top: 0;
+      }
+
+    }
+  }
+  .left-lig{
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    max-width: 200px;
+    width: 20%;
+    .shoes{
+      position: absolute;
+      width: 50% !important;
+      top: -10px;
+      left: -40px;
+    }
+  }
+  .mid-lig{
+    position: absolute;
+    bottom: 30%;
+    left: 38%;
+    max-width: 200px;
+    width: 20%;
+    .per{
+      position: absolute;
+      width: 50% !important;
+      top: 40px;
+      left: -40px;
+    }
+  }
+    .mid-lig-2 {
+      position: absolute;
+      bottom: 30%;
+      left: 60%;
+      max-width: 200px;
+      width: 20%;
+  
+      .per {
+        position: absolute;
+        width: 50% !important;
+        top: -40px;
+        right: -15px;
+      }
+    }
+    .end-lig {
+      position: absolute;
+      bottom: 31%;
+      right: 3%;
+      max-width: 100px;
+      width: 20%;
+  
+      .per {
+        position: absolute;
+        width: 80% !important;
+        bottom: -20px;
+        right: 0;
+      }
+    }
+}
+
+
 // ************************************** overrides
 .hero{
   .video-slider{

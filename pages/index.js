@@ -4,6 +4,7 @@ import Events from "../components/elements/Events";
 import Hero from "../components/elements/hero/Hero";
 import HeroFooter from "../components/elements/HeroFooter";
 import InGame from "../components/elements/InGame";
+import Ownership from "../components/elements/Ownership";
 import Partners from "../components/elements/Partners";
 import VRWorld from "../components/elements/VRWorld";
 import data from "../lib/data.json";
@@ -19,6 +20,7 @@ export default function Home({ videos, stackImgs }) {
     <>
       <Hero videos={videos} stackImgs={stackImgs} />
       <HeroFooter />
+      <Ownership />
       <VRWorld />
       <InGame />
       <Partners />

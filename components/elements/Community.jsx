@@ -4,11 +4,8 @@ import {
   Grid,
   GridItem,
   Heading,
-  HStack,
-  Image,
   Text,
   Stack,
-  Divider,
 } from "@chakra-ui/react";
 import { FaDiscord, FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
