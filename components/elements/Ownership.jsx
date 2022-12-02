@@ -1,4 +1,5 @@
 import { Box, Container, Heading, HStack, Image, Text } from "@chakra-ui/react";
+import OwnershipBottom from "./OwnershipBottom";
 import OwnershipTop from "./OwnershipTop";
 
 function Ownership() {

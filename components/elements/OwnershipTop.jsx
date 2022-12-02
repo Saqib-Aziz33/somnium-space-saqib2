@@ -24,24 +24,26 @@ function OwnershipTop() {
       </div>
 
       {/* middle-section */}
-      <div className="left-lig">
-        <Image className="lig4" src="/assets/lig4.png" />
-        <Image className="shoes" src="/assets/shoes.png" />
-      </div>
+      <div className="lights-section">
+        <div className="left-lig">
+          <Image className="lig4" src="/assets/lig4.png" />
+          <Image className="shoes" src="/assets/shoes.png" />
+        </div>
 
-      <div className="mid-lig">
-        <Image className="lig" src="/assets/lig1.png" />
-        <Image className="per" src="/assets/per1.png" />
-      </div>
+        <div className="mid-lig">
+          <Image className="lig" src="/assets/lig1.png" />
+          <Image className="per" src="/assets/per1.png" />
+        </div>
 
-      <div className="mid-lig-2">
-        <Image className="lig" src="/assets/lig2.png" />
-        <Image className="per" src="/assets/loc1.png" />
-      </div>
+        <div className="mid-lig-2">
+          <Image className="lig" src="/assets/lig2.png" />
+          <Image className="per" src="/assets/loc1.png" />
+        </div>
 
-      <div className="end-lig">
-        <Image className="lig" src="/assets/lig3.png" />
-        <Image className="per" src="/assets/wat1.png" />
+        <div className="end-lig">
+          <Image className="lig" src="/assets/lig3.png" />
+          <Image className="per" src="/assets/wat1.png" />
+        </div>
       </div>
     </>
   );

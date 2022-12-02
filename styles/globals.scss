@@ -326,7 +326,7 @@ html, body {
 
     }
   }
-  .left-lig{
+    .left-lig{
     position: absolute;
     bottom: 20%;
     left: 12%;
@@ -380,8 +380,79 @@ html, body {
         right: 0;
       }
     }
+
 }
 
+.top-lig{
+  position: relative;
+  z-index: 40;
+  margin-top: -26.4%;
+}
+.ownership-bottom{
+  background-color: #045e5e;
+  position: relative;
+  z-index: -1;
+  margin-top: -360px;
+  max-width: 1800px;
+  width: 100%;
+  .imgs{
+    margin-top: -22%;
+    overflow: hidden;
+    width: 100%;
+    .wires{
+      width: 100%;
+      margin-bottom: -12px;
+      vertical-align: middle;
+    }
+    .mountain{
+      position: absolute;
+      bottom: 0;
+    }
+    .lines1{
+      position: absolute;
+      bottom: 0;
+    }
+    .loc{
+      position: absolute;
+      bottom: 0;
+      left: 5%;
+    }
+
+    .content{
+      position:absolute;
+      top: 0;
+      bottom: 0;
+      width: 50%;
+      left: 0;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.534);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      .text{
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+.circle-outline{
+  height: 20px;
+  width: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .circle{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
 
 // ************************************** overrides
 .hero{
